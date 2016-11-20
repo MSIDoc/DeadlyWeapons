@@ -1,0 +1,39 @@
+"workshopitem"
+{
+	"appid"		"346110"
+	"contentfolder"		"D:\\Epic Games\\ARK\\ARKDevKit\\ModTools\\Output\\CustomWeapons"
+	"previewfile"		"D:\\Epic Games\\ARK\\ARKDevKit\\ModTools\\Output\\CustomWeapons\\preview.jpg"
+	"visibility"		"0"
+	"title"		"Deadly Weapons!"
+	"description"		"[h1] 100% Clean MOD ID: 665094472 [/h1]
+
+Bring back the real guns to ARK Survival!
+
+[b]=REALLY IMPORTANT=[/b]
+* ADD weapons to your server without breaking the original engram tree!
+* Every single weapon on this MOD Can kill Dinos Wild/Tamed ones...
+* This MOD is probably the best set of Torpor/Damage weapon's for Annunaki Genesis MOD."
+	"changenote"		"[h1]Last Update: v.1.1.1 [/h1]
+[b]- Added server variables weapon & torpor damage! (more settings on the way!).[/b]
+
+Put this on [b]GameUserSettings.ini[/b] file:
+
+[b][DeadlyWeapons][/b]
+BasicBoltDamage = 500
+MagnumTypeBulletDamage = 1500
+BasicAutoRifleAmmoDamage = 1000
+BasicBoltActionBulletDamage = 5000
+BasicSniperBulletDamage = 2000
+ShotgunExplosiveAmmoDamage = 1500
+ShotgunRocketAmmoDamage = 800
+BasicRocketLauncherDamage = 6000
+BasicBoltTranqDamage = 25
+BasicDartTranqDamage = 25
+ProfDartTranqDamage = 25
+BasicRocketTranqDamage = 100
+ElectricBulletM9Damage = 15
+ElectricBulletAutoRifleDamage = 25
+
+[b]* Note: lowering "Tranq/Electric" values decrease torpor deployed[/b]"
+"publishedfileid" "665094472"
+}
